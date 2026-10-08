@@ -1,16 +1,14 @@
 publish_to: none
 name: remvibe_dart_models
-description: RemVibe Dart Models.
+description: Shared Dart models used by RemVibe services.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/nusretm/remvibe_dart_models
 
 environment:
-  sdk: ^3.12.2
+  sdk: '>=3.5.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  path: ^1.9.0
 
 dev_dependencies:
-  lints: ^6.0.0
-  test: ^1.25.6
+  lints: ^5.0.0
+  test: ^1.25.8
