@@ -2,3 +2,9 @@
 # Created by `dart pub`
 .dart_tool/
 pubspec.lock
+
+# Generated builds and test outputs
+/build/
+/coverage/
+.pub/
+.pub-cache/
